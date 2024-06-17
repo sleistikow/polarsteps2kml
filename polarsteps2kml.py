@@ -170,7 +170,7 @@ class Trip:
                 for file in sorted(os.listdir(photo_folder)):
                     foto_paths.append(os.path.join(photo_folder, file))
 
-            description = [f'<img style="max-width:500px;" src="{path}">' for path in foto_paths]
+            description = [f'<img style="max-width:500px;" src="file:///{path}">' for path in foto_paths]
             description = ''.join(description)
             description = f'<![CDATA[{description}<p>{step["description"]}]]>'
 
