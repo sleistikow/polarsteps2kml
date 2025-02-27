@@ -1,4 +1,7 @@
 # polarsteps2kml
+
+![polarsteps2kml](https://github.com/user-attachments/assets/a3d4356b-747c-4f03-9eb4-4f45f759b2f5)
+
 A script that converts a polarsteps archive (https://www.polarsteps.com) into a kml file, e.g., to be read by Google Earth (https://www.earth.google.com).
 
 To use it, request your polarsteps data in your polarsteps account settings. You will receive a link to an archive that you will have to download.
